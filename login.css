@@ -1,0 +1,39 @@
+body {
+    background-image: url("fondo6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background: rgba(235, 246, 253, 0.407);
+    margin-top: 70px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+    width: 350px;
+}
+
+.form-control {
+    background: rgba(0, 0, 0, 0.2);
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.ingresar {
+    background: #335154;
+    padding: 10px;
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 30px;
+}

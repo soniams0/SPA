@@ -1,0 +1,84 @@
+body {
+    font-family: 'Lora', serif;
+    font-weight: 200;
+    background-image: url("fondo1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* .lead-lg {
+    font-size: 1rem;
+} */
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin-left: 25px;
+}
+
+.formulario {
+    background: rgba(241, 237, 237, 0.259);
+    margin-top: 60px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0 30px rgba(237, 202, 202, 0.568);
+    width: 340px;
+}
+
+.form-control {
+    background: rgba(0, 0, 0, .2);
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.ingresar {
+    background: #335154;
+    padding: 10px;
+    display: block;
+    padding: 0.5rem 1rem;
+    width: 200px;
+    margin: 0 auto;
+    color: white;
+    margin-top: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 400px;
+}
+
+footer {
+    background-color: #335154;
+}
+
+.texto {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.titulo1 {
+    font-family: 'Abril Fatface';
+    color: #3bb1b5;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background: #335154;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
